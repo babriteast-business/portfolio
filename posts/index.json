@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "building-an-ai-interview-coach",
+    "title": "Building an AI interview coach on free models",
+    "date": "2026-11-08",
+    "summary": "An AI panel that asks one question at a time, grades the answer, corrects it and asks the follow-up. What the design looks like and what broke in production.",
+    "tags": [
+      "Agents",
+      "LLMs",
+      "System design"
+    ],
+    "minutes": 2,
+    "draft": false
+  },
+  {
+    "slug": "finetuning-a-14b-model-on-one-gpu",
+    "title": "Fine-tuning a 14B model on one GPU with QLoRA",
+    "date": "2026-11-02",
+    "summary": "How I took Qwen3-14B from open weights to a served API on a single NVIDIA A40, and the order of steps that kept it sane.",
+    "tags": [
+      "Fine-tuning",
+      "LLMs",
+      "MLOps"
+    ],
+    "minutes": 2,
+    "draft": false
+  }
+]
