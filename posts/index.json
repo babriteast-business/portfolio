@@ -13,6 +13,78 @@
     "draft": false
   },
   {
+    "slug": "building-an-mcp-server-in-python",
+    "title": "Building an MCP server in Python",
+    "date": "2026-09-07",
+    "summary": "A small, read-only MCP server with the official Python SDK v2: two typed tools, stdio, Claude Desktop and Claude Code config, Inspector and security",
+    "tags": [
+      "Agents",
+      "Python"
+    ],
+    "minutes": 8,
+    "draft": false
+  },
+  {
+    "slug": "chunking-strategies-for-rag",
+    "title": "Chunking strategies for RAG that actually retrieve",
+    "date": "2026-02-09",
+    "summary": "Fixed, recursive, structure-aware and semantic chunking compared, with a small Python splitter and a way to tune it with retrieval evals",
+    "tags": [
+      "RAG",
+      "Python"
+    ],
+    "minutes": 8,
+    "draft": false
+  },
+  {
+    "slug": "cutting-llm-costs-with-prompt-caching",
+    "title": "Cutting LLM costs with prompt caching and routing",
+    "date": "2026-09-21",
+    "summary": "A practical order of work for lowering LLM API spend: measure per feature, cache the static prefix, route by difficulty, batch offline jobs and check quality",
+    "tags": [
+      "LLMs",
+      "Inference"
+    ],
+    "minutes": 7,
+    "draft": false
+  },
+  {
+    "slug": "defending-agents-against-prompt-injection",
+    "title": "Defending agents against prompt injection",
+    "date": "2026-10-05",
+    "summary": "Why prompt injection has no single fix, and the layered defences I use for tool-using agents, with an approval gate, allow-lists and OWASP 2026 mapping",
+    "tags": [
+      "Agents",
+      "Security"
+    ],
+    "minutes": 9,
+    "draft": false
+  },
+  {
+    "slug": "dpo-explained-with-code",
+    "title": "DPO explained, with a TRL training script",
+    "date": "2026-05-18",
+    "summary": "How Direct Preference Optimisation replaces the reward model and PPO loop, what its loss does, and a minimal TRL DPOTrainer and LoRA script to run",
+    "tags": [
+      "Fine-tuning",
+      "LLMs"
+    ],
+    "minutes": 8,
+    "draft": false
+  },
+  {
+    "slug": "evaluating-a-rag-pipeline",
+    "title": "Evaluating a RAG pipeline: retrieval first, then generation",
+    "date": "2026-07-06",
+    "summary": "How to score retrieval and generation separately, build a golden set, calibrate an LLM judge, and trace a bad answer back to its cause",
+    "tags": [
+      "RAG",
+      "Evaluation"
+    ],
+    "minutes": 8,
+    "draft": false
+  },
+  {
     "slug": "finetuning-a-14b-model-on-one-gpu",
     "title": "Fine-tuning a 14B model on one GPU with QLoRA",
     "date": "2026-11-02",
@@ -23,6 +95,116 @@
       "MLOps"
     ],
     "minutes": 2,
+    "draft": false
+  },
+  {
+    "slug": "gitops-for-ml-models-with-argo-cd",
+    "title": "GitOps for ML model deployments with Argo CD",
+    "date": "2026-06-15",
+    "summary": "How I deploy model-serving containers with Argo CD, promote model versions by pull request, roll back with git revert and keep secrets out of Git",
+    "tags": [
+      "MLOps",
+      "DevSecOps"
+    ],
+    "minutes": 7,
+    "draft": false
+  },
+  {
+    "slug": "hybrid-search-and-reranking",
+    "title": "Hybrid search and reranking, explained with code",
+    "date": "2026-03-16",
+    "summary": "Combining BM25 and dense vectors with reciprocal rank fusion, then reranking with a cross-encoder, in plain Python with the trade-offs explained",
+    "tags": [
+      "RAG",
+      "Python"
+    ],
+    "minutes": 7,
+    "draft": false
+  },
+  {
+    "slug": "kv-cache-memory-math",
+    "title": "KV cache memory math, worked through",
+    "date": "2026-04-13",
+    "summary": "What the KV cache stores, how to size it from a model's config.json, and how GQA, FP8, PagedAttention and prefix caching change the numbers",
+    "tags": [
+      "LLMs",
+      "Inference"
+    ],
+    "minutes": 7,
+    "draft": false
+  },
+  {
+    "slug": "llm-email-triage-with-n8n",
+    "title": "An LLM email triage workflow in n8n",
+    "date": "2026-08-24",
+    "summary": "A self-hosted n8n workflow that classifies incoming email with an LLM, routes it by category, drafts replies for human approval and logs every decision",
+    "tags": [
+      "Automation",
+      "Agents"
+    ],
+    "minutes": 8,
+    "draft": false
+  },
+  {
+    "slug": "monitoring-drift-and-llm-quality-with-evidently",
+    "title": "Monitoring data drift and LLM quality with Evidently",
+    "date": "2026-10-20",
+    "summary": "A runnable Evidently 0.7 walkthrough covering tabular drift reports, LLM output checks with descriptors, CI pass/fail gates and scheduled runs",
+    "tags": [
+      "MLOps",
+      "Evaluation",
+      "Python"
+    ],
+    "minutes": 12,
+    "draft": false
+  },
+  {
+    "slug": "orchestrator-workers-and-when-one-agent-is-enough",
+    "title": "Orchestrator-workers, and when one agent is enough",
+    "date": "2026-07-27",
+    "summary": "Workflows vs agents, the five common patterns, when a single agent beats a multi-agent system, and a small orchestrator with budgets and stop conditions",
+    "tags": [
+      "Agents",
+      "System design"
+    ],
+    "minutes": 9,
+    "draft": false
+  },
+  {
+    "slug": "quality-gates-for-llm-apps-in-ci",
+    "title": "Quality gates for LLM apps in CI/CD",
+    "date": "2026-08-10",
+    "summary": "How I gate merges for LLM apps with a golden-set eval suite, calibrated LLM judges, cost and latency budgets, and security scans in GitHub Actions",
+    "tags": [
+      "MLOps",
+      "Evaluation",
+      "DevSecOps"
+    ],
+    "minutes": 9,
+    "draft": false
+  },
+  {
+    "slug": "random-forests-vs-gradient-boosting",
+    "title": "Random forests vs gradient boosting, in practice",
+    "date": "2026-01-19",
+    "summary": "How bagging and boosting differ, which hyperparameters matter, a runnable scikit-learn comparison, and why impurity-based feature importance misleads",
+    "tags": [
+      "Machine learning",
+      "Python"
+    ],
+    "minutes": 7,
+    "draft": false
+  },
+  {
+    "slug": "reliable-structured-outputs-with-pydantic",
+    "title": "Reliable structured outputs from LLMs with Pydantic",
+    "date": "2026-06-01",
+    "summary": "JSON mode, structured outputs and tool calling compared, plus a provider-agnostic Pydantic v2 validate-and-retry loop that handles refusals and truncation",
+    "tags": [
+      "LLMs",
+      "Python"
+    ],
+    "minutes": 8,
     "draft": false
   }
 ]
